@@ -1,3 +1,6 @@
+"""
+This module is used for basic CRUD operations using Playwright -> APIRequestContext
+"""
 from playwright.sync_api import sync_playwright
 from core.base.base_endpoint import IEndpointTemplate
 from core.constants.http_methods import HttpMethods

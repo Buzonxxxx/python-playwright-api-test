@@ -5,8 +5,7 @@ from core.utils.config_parser import get_config
 
 
 @pytest.fixture(scope="session")
-def request_context(playwright: Playwright) -> \
-        Generator[APIRequestContext, None, None]:
+def request_context(playwright: Playwright) -> Generator[APIRequestContext, None, None]:
     """
     This is request context fixture to be reused for request processing.
     :param playwright: instance for Playwright library
